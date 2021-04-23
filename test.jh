@@ -1,0 +1,14 @@
+
+
+
+entity Task{
+    title String required,
+    isChecked Boolean required,
+    date LocalDate required
+}
+
+entity User{
+	name String
+    psw String
+}
+
